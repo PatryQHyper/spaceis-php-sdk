@@ -1,0 +1,22 @@
+{
+  "name": "patryqhyper/spaceis-php-sdk",
+  "description": "SpaceIs.pl's SDK in PHP",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "PatryQHyper",
+      "email": "patryk@vizauer.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.4.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatryQHyper\\SpaceIs\\": "src/"
+    }
+  }
+}
