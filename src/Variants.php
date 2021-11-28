@@ -8,7 +8,7 @@
 
 namespace PatryQHyper\SpaceIs;
 
-class Products extends Payments
+class Variants extends Payments
 {
     public function getVariants(string $serverId, string $productId)
     {

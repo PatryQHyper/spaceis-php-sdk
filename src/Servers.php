@@ -8,7 +8,7 @@
 
 namespace PatryQHyper\SpaceIs;
 
-class Servers extends Products
+class Servers extends Variants
 {
     public function getServers()
     {
